@@ -1,0 +1,24 @@
+server:
+  port: 8081
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/CitizenDB?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: r3DSons
+    driver-class-name: com.mysql.cj.jdbc.Driver  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+    
+    
+    
+  application:
+    name: CITIZEN-SERVICES
+    
+ 
+      
+
+      
