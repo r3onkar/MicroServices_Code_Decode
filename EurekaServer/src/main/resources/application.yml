@@ -1,0 +1,20 @@
+server:
+  port: 8761
+  
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    allow-redirects: true
+ 
+ 
+
+  server:
+    enableSelfPreservation: true
+  instance:
+    appname: 3MP-AGW-REGISTRY
+    preferIpAddress: true
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
